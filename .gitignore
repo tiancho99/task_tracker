@@ -1,3 +1,8 @@
+# Personal files
+configs
+app_featres.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
