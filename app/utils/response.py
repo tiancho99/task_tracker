@@ -2,9 +2,9 @@ from flask import jsonify
 
 def success_response(message="Success", status_code=200, **kwargs):
     response = {
-        ""
-        'status': 'success',
-        # 'message': message,
+        "status-code": status_code,
+        # 'response-status': 'success',
+        'response': message,
         **kwargs
     }
     return jsonify(response)
